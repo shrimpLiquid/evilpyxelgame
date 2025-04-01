@@ -1,7 +1,7 @@
 import pyxel  
 class App:
     def __init__(self):
-        pyxel.init(60, 60,fps=6)
+        pyxel.init(60, 60,fps=60)
 
         pyxel.run(self.update, self.draw)
         
